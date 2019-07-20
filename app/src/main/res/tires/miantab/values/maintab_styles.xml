@@ -1,0 +1,13 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="MainTabItem">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:padding">@dimen/sw5</item>
+        <item name="textColorNormal">#999999</item>
+        <item name="tabTextSize">@dimen/sw13</item>
+        <item name="textColorSelected">#46c01b</item>
+    </style>
+
+</resources>

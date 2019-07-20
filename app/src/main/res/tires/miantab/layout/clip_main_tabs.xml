@@ -1,0 +1,41 @@
+<com.yinglan.alphatabs.AlphaTabsIndicator xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_tabs_indicator"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/sw48"
+    android:orientation="horizontal"
+    tools:showIn="@layout/activity_main">
+
+    <!-- TODO 图标待更换 -->
+    <com.yinglan.alphatabs.AlphaTabView
+        style="@style/MainTabItem"
+        app:tabIconNormal="@mipmap/icon_main_tab_0_normal"
+        app:tabIconSelected="@mipmap/icon_main_tab_0_selected"
+        app:tabText="@string/main_tab_0" />
+
+    <com.yinglan.alphatabs.AlphaTabView
+        style="@style/MainTabItem"
+        app:tabIconNormal="@mipmap/icon_main_tab_0_normal"
+        app:tabIconSelected="@mipmap/icon_main_tab_0_selected"
+        app:tabText="@string/main_tab_1" />
+
+    <com.yinglan.alphatabs.AlphaTabView
+        style="@style/MainTabItem"
+        app:tabIconNormal="@mipmap/icon_main_tab_0_normal"
+        app:tabIconSelected="@mipmap/icon_main_tab_0_selected"
+        app:tabText="@string/main_tab_2" />
+
+    <com.yinglan.alphatabs.AlphaTabView
+        style="@style/MainTabItem"
+        app:tabIconNormal="@mipmap/icon_main_tab_0_normal"
+        app:tabIconSelected="@mipmap/icon_main_tab_0_selected"
+        app:tabText="@string/main_tab_3" />
+
+    <com.yinglan.alphatabs.AlphaTabView
+        style="@style/MainTabItem"
+        app:tabIconNormal="@mipmap/icon_main_tab_0_normal"
+        app:tabIconSelected="@mipmap/icon_main_tab_0_selected"
+        app:tabText="@string/main_tab_4" />
+
+</com.yinglan.alphatabs.AlphaTabsIndicator>
